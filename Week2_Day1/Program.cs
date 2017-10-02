@@ -35,16 +35,45 @@ namespace Week2_Day1
             //Console.WriteLine(peersInitials[1]);
 
             //how to initialize when we do not know all elements from the start
-            int[] numbers = new int[4];
-            //the 4 is how many elements will exist within the new array
-            numbers[0] = 43;
-            numbers[1] = 12;
-            Console.WriteLine("Please enter a number");
-            numbers[2] = int.Parse(Console.ReadLine());
-            Console.WriteLine("Please enter a number");
-            numbers[3] = int.Parse(Console.ReadLine());
+            //int[] numbers = new int[4];
+            ////the 4 is how many elements will exist within the new array
+            //numbers[0] = 43;
+            //numbers[1] = 12;
+            //Console.WriteLine("Please enter a number");
+            //numbers[2] = int.Parse(Console.ReadLine());
+            //Console.WriteLine("Please enter a number");
+            //numbers[3] = int.Parse(Console.ReadLine());
 
-            Console.WriteLine(numbers[3]);
+            //Console.WriteLine(numbers[3]);
+
+            //Practice
+            //string[] weekDays = new string[7];
+            //weekDays[0] = "Monday";
+            //weekDays[1] = "Tuesday";
+            //weekDays[2] = "Wednesday";
+            //weekDays[3] = "Thursday";
+            //weekDays[4] = "Friday";
+            //weekDays[5] = "Saturday";
+            //weekDays[6] = "Sunday";
+
+            //int[] studentAge = new int[5];
+            //studentAge[0] = 25;
+            //studentAge[1] = 27;
+            //studentAge[2] = 23;
+            //studentAge[3] = 30;
+            //studentAge[4] = 24;
+
+            ////Counts indexes due to weekDays being an array
+            //Console.WriteLine(weekDays.Length);
+
+            //Practice
+            //string[] name = { "B", "E", "O", "R", "N" };
+            //Console.WriteLine(name.Length);
+
+            //string[] powers = { "invisibility", "flying", "superspeed", "superstrength" };
+            //int index = powers.Length;
+            //index = index - 2;
+            //Console.WriteLine(powers[index]);
         }
     }
 }
