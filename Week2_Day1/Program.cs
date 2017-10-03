@@ -88,16 +88,39 @@ namespace Week2_Day1
             //if not found it will return -1
 
             //How to use LastIndexOf
-            int[] numbers = { 2, 5, 9, 4, 3, 4, 6, 5 };
-            Console.WriteLine(Array.LastIndexOf(numbers, 4));
+            //int[] numbers = { 2, 5, 9, 4, 3, 4, 6, 5 };
+            //Console.WriteLine(Array.LastIndexOf(numbers, 4));
 
-            //How to use Reverse
-            Array.Reverse(numbers);
-            Console.WriteLine(numbers[0]);
+            ////How to use Reverse
+            //Array.Reverse(numbers);
+            //Console.WriteLine(numbers[0]);
 
-            Array.Sort(numbers);
-            Console.WriteLine(numbers[0]);
-            Console.WriteLine(numbers[numbers.Length - 1]);
+            //How to use Sort
+            //Array.Sort(numbers);
+            //Console.WriteLine(numbers[0]);
+            //Console.WriteLine(numbers[numbers.Length - 1]);
+
+            //Practice from Do It section on Github
+            string[] firstNames = { "Nick", "Jim", "Charlie", "Matthew" };
+            Console.WriteLine(Array.IndexOf(firstNames, "Nick"));
+
+            int[] luckyNumbers = { 1, 3, 5, 1, 5, 3 };
+            Console.WriteLine(Array.LastIndexOf(luckyNumbers, 5));
+
+            char[] chosenLetters = { 'a', 'd', 'c', 't', 'i' };
+            Console.WriteLine(chosenLetters[0]);
+            Array.Reverse(chosenLetters);
+            Console.WriteLine(chosenLetters[0]);
+
+            string[] studentNames = { "Nick", "Jim", "Charlie", "Matthew" };
+            Array.Sort(studentNames);
+            Console.WriteLine(studentNames[0]);
+            Console.WriteLine(studentNames[studentNames.Length - 1]);
+
+            int[] favoriteNumbers = { 1, 7, 3, 2, 15, 16, 23, 42, 4, 8 };
+            Array.Sort(favoriteNumbers);
+            Console.WriteLine(favoriteNumbers[0]);
+            Console.WriteLine(favoriteNumbers[favoriteNumbers.Length - 1]);
         }
     }
 }
