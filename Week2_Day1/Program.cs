@@ -74,6 +74,30 @@ namespace Week2_Day1
             //int index = powers.Length;
             //index = index - 2;
             //Console.WriteLine(powers[index]);
+
+            //To allow the user to create array size
+            //Console.WriteLine("Please enter the size of your array");
+            //int arraySize = int.Parse(Console.ReadLine());
+            //int[] newArray = new int[arraySize];
+
+            //Console.WriteLine("The array is of length " + newArray.Length);
+
+            //How to use IndexOf
+            //string[] birthMonths = { "October", "July", "October", "May" };
+            //Console.WriteLine(Array.IndexOf(birthMonths, "October"));
+            //if not found it will return -1
+
+            //How to use LastIndexOf
+            int[] numbers = { 2, 5, 9, 4, 3, 4, 6, 5 };
+            Console.WriteLine(Array.LastIndexOf(numbers, 4));
+
+            //How to use Reverse
+            Array.Reverse(numbers);
+            Console.WriteLine(numbers[0]);
+
+            Array.Sort(numbers);
+            Console.WriteLine(numbers[0]);
+            Console.WriteLine(numbers[numbers.Length - 1]);
         }
     }
 }
